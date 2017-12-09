@@ -1,0 +1,22 @@
+{
+  "name": "pilgrim",
+  "version": "0.0.0",
+  "description": "Pathfinder character creation library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptdaemon/pilgrim.git"
+  },
+  "keywords": [
+    "pathfinder"
+  ],
+  "author": "Kenneth Williams",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/scriptdaemon/pilgrim/issues"
+  },
+  "homepage": "https://github.com/scriptdaemon/pilgrim#readme"
+}
