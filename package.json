@@ -1,7 +1,7 @@
 {
   "name": "pilgrim",
   "version": "0.0.0",
-  "description": "Pathfinder character creation library.",
+  "description": "Pathfinder character creation library and command-line interface.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
