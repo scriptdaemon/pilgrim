@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "9" # Current
+  - "8" # LTS
+  - "6" # LTS
+
+os:
+  - linux
+  - osx
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
