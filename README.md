@@ -1,4 +1,4 @@
-# @scriptdaemon/eslint-config
+# Pilgrim
 
 [![Continuous Integration][ci-img]][ci-url]
 [![Dependencies][deps-img]][deps-url]
