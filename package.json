@@ -8,7 +8,7 @@
   "homepage": "https://github.com/scriptdaemon/pilgrim#readme",
   "bugs": "https://github.com/scriptdaemon/pilgrim/issues",
   "license": "UNLICENSED",
-  "author": "Kenneth Williams",
+  "author": "Kenneth Williams <scriptdaemon@gmail.com>",
   "main": "index.js",
   "repository": "scriptdaemon/pilgrim",
   "scripts": {
