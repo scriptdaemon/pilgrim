@@ -15,8 +15,8 @@
     "test": "eslint ."
   },
   "devDependencies": {
-    "@scriptdaemon/eslint-config": "^1.3.0",
-    "eslint": "^4.14.0"
+    "@scriptdaemon/eslint-config": "^2.0.0",
+    "eslint": "^4.18.1"
   },
   "engines": {
     "node": ">=6.9.0",
