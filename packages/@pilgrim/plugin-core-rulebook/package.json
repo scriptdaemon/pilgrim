@@ -1,24 +1,16 @@
 {
-  "name": "pilgrim",
+  "name": "@pilgrim/plugin-core-rulebook",
   "version": "0.0.0",
-  "description": "Pathfinder character creation library and command-line interface.",
+  "description": "Pathfinder Core Rulebook plugin for the Pilgrim character creation library.",
   "keywords": [
     "pathfinder"
   ],
-  "homepage": "https://github.com/scriptdaemon/pilgrim#readme",
+  "homepage": "https://github.com/scriptdaemon/pilgrim/packages/@pilgrim/plugin-core-rulebook#readme",
   "bugs": "https://github.com/scriptdaemon/pilgrim/issues",
   "license": "UNLICENSED",
   "author": "Kenneth Williams <scriptdaemon@gmail.com>",
   "main": "index.js",
   "repository": "scriptdaemon/pilgrim",
-  "scripts": {
-    "test": "eslint ."
-  },
-  "devDependencies": {
-    "@scriptdaemon/eslint-config": "^2.0.0",
-    "eslint": "^4.18.1",
-    "lerna": "^2.9.0"
-  },
   "engines": {
     "node": ">=6.9.0",
     "npm": ">=3.10.8"
