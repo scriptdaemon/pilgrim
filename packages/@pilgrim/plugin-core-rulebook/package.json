@@ -7,7 +7,7 @@
   ],
   "homepage": "https://github.com/scriptdaemon/pilgrim/packages/@pilgrim/plugin-core-rulebook#readme",
   "bugs": "https://github.com/scriptdaemon/pilgrim/issues",
-  "license": "UNLICENSED",
+  "license": "ISC",
   "author": "Kenneth Williams <scriptdaemon@gmail.com>",
   "main": "index.js",
   "repository": "scriptdaemon/pilgrim",
