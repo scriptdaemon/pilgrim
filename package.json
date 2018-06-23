@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@scriptdaemon/eslint-config": "^2.0.0",
-    "eslint": "^4.18.1",
+    "eslint": "^5.0.0",
     "lerna": "^2.9.0"
   },
   "engines": {
