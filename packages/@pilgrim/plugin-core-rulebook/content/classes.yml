@@ -1,0 +1,175 @@
+#
+# Core Classes
+#
+
+barbarian:
+  name: "Barbarian"
+  short_description: "The barbarian is a brutal berserker from beyond the edge of civilized lands."
+  description: "For some, there is only rage. In the ways of their people, in the fury of their passion, in the howl of battle, conflict is all these brutal souls know. Savages, hired muscle, masters of vicious martial techniques, they are not soldiers or professional warriors -- they are the battle possessed, creatures of slaughter and spirits of war. Known as barbarians, these warmongers know little of training, preparation, or the rules of warfare; for them, only the moment exists, with the foes that stand before them and the knowledge that the next moment might hold their death. They possess a sixth sense in regard to danger and the endurance to weather all that might entail. These brutal warriors might rise from all walks of life, both civilized and savage, though whole societies embracing such philosophies roam the wild places of the world. Within barbarians storms the primal spirit of battle, and woe to those who face their rage."
+  role: "Barbarians excel in combat, possessing the martial prowess and fort_save to take on foes seemingly far superior to themselves. With rage granting them boldness and daring beyond that of most other warriors, barbarians charge furiously into battle and ruin all who would stand in their way."
+  alignment: "Any nonlawful"
+  hit_die: "d12"
+  starting_wealth: "3d6 × 10 gp"
+  class_skills:
+    - "Acrobatics (Dex)"
+    - "Climb (Str)"
+    - "Craft (Int)"
+    - "Handle Animal (Cha"
+    - "Intimidate (Cha)"
+    - "Knowledge (nature) (Int)"
+    - "Perception (Wis)"
+    - "Ride (Dex)"
+    - "Survival (Wis)"
+    - "Swim (Str)"
+  skill_ranks_per_level: "4 + Int modifier"
+  max_spell_level: 0
+  table:
+    - level: "1st",
+      base_attack_bonus: "+1",
+      fort_save: "+2",
+      ref_save: "+0",
+      will_save: "+0",
+      special:
+        - "Fast movement"
+        - "Rage"
+    - level: "2nd",
+      base_attack_bonus: "+2",
+      fort_save: "+3",
+      ref_save: "+0",
+      will_save: "+0",
+      special:
+        - "Rage power"
+        - "Uncanny dodge"
+    - level: "3rd",
+      base_attack_bonus: "+3",
+      fort_save: "+3",
+      ref_save: "+1",
+      will_save: "+1",
+      special:
+        - "Trap sense +1"
+    - level: "4th",
+      base_attack_bonus: "+4",
+      fort_save: "+4",
+      ref_save: "+1",
+      will_save: "+1",
+      special:
+        - "Rage power"
+    - level: "5th",
+      base_attack_bonus: "+5",
+      fort_save: "+4",
+      ref_save: "+1",
+      will_save: "+1",
+      special:
+        - "Improved uncanny dodge"
+    - level: "6th",
+      base_attack_bonus: "+6/+1",
+      fort_save: "+5",
+      ref_save: "+2",
+      will_save: "+2",
+      special:
+        - "Rage power"
+        - "Trap sense +2"
+    - level: "7th",
+      base_attack_bonus: "+7/+2",
+      fort_save: "+5",
+      ref_save: "+2",
+      will_save: "+2",
+      special:
+        - "Damage reduction 1/-"
+    - level: "8th",
+      base_attack_bonus: "+8/+3",
+      fort_save: "+6",
+      ref_save: "+2",
+      will_save: "+2",
+      special:
+        - "Rage power"
+    - level: "9th",
+      base_attack_bonus: "+9/+4",
+      fort_save: "+6",
+      ref_save: "+3",
+      will_save: "+3",
+      special:
+        - "Trap sense +3"
+    - level: "10th",
+      base_attack_bonus: "+10/+5",
+      fort_save: "+7",
+      ref_save: "+3",
+      will_save: "+3",
+      special:
+        - "Damage reduction 2/-"
+        - "Rage power"
+    - level: "11th",
+      base_attack_bonus: "+11/+6/+1",
+      fort_save: "+7",
+      ref_save: "+3",
+      will_save: "+3",
+      special:
+        - "Greater rage"
+    - level: "12th",
+      base_attack_bonus: "+12/+7/+2",
+      fort_save: "+8",
+      ref_save: "+4",
+      will_save: "+4",
+      special:
+        - "Rage power"
+        - "Trap sense +4"
+    - level: "13th",
+      base_attack_bonus: "+13/+8/+3",
+      fort_save: "+8",
+      ref_save: "+4",
+      will_save: "+4",
+      special:
+        - "Damage reduction 3/-"
+    - level: "14th",
+      base_attack_bonus: "+14/+9/+4",
+      fort_save: "+9",
+      ref_save: "+4",
+      will_save: "+4",
+      special:
+        - "Indomitable will"
+        - "Rage power"
+    - level: "15th",
+      base_attack_bonus: "+15/+10/+5",
+      fort_save: "+9",
+      ref_save: "+5",
+      will_save: "+5",
+      special:
+        - "Trap sense +5"
+    - level: "16th",
+      base_attack_bonus: "+16/+11/+6/+1",
+      fort_save: "+10",
+      ref_save: "+5",
+      will_save: "+5",
+      special:
+        - "Damage reduction 4/-"
+        - "Rage power"
+    - level: "17th",
+      base_attack_bonus: "+17/+12/+7/+2",
+      fort_save: "+10",
+      ref_save: "+5",
+      will_save: "+5",
+      special:
+        - "Tireless rage"
+    - level: "18th",
+      base_attack_bonus: "+18/+13/+8/+3",
+      fort_save: "+11",
+      ref_save: "+6",
+      will_save: "+6",
+      special:
+        - "Rage power"
+        - "Trap sense +6"
+    - level: "19th",
+      base_attack_bonus: "+19/+14/+9/+4",
+      fort_save: "+11",
+      ref_save: "+6",
+      will_save: "+6",
+      special:
+        - "Damage reduction 5/-"
+    - level: "20th",
+      base_attack_bonus: "+20/+15/+10/+5",
+      fort_save: "+12",
+      ref_save: "+6",
+      will_save: "+6",
+      special:
+        - "Mighty rage"
+        - "Rage power"
