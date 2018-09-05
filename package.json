@@ -1,7 +1,7 @@
 {
   "name": "pilgrim",
   "version": "0.0.0",
-  "description": "Pathfinder character creation library and command-line interface.",
+  "description": "PFSRD character creation library and command-line interface.",
   "keywords": [
     "pathfinder"
   ],

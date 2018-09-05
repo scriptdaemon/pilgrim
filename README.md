@@ -3,7 +3,7 @@
 [![Continuous Integration][ci-img]][ci-url]
 [![Dependencies][deps-img]][deps-url]
 
-Pathfinder character creation library and command-line interface.
+PFSRD character creation library and command-line interface.
 
 ## Support
 
