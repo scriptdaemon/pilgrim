@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "PFSRD character creation library and command-line interface.",
   "keywords": [
-    "pathfinder"
+    "pfsrd"
   ],
   "homepage": "https://github.com/scriptdaemon/pilgrim#readme",
   "bugs": "https://github.com/scriptdaemon/pilgrim/issues",
