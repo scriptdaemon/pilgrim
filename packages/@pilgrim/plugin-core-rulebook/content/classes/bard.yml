@@ -104,7 +104,6 @@ table:
     fort_save: "+1"
     ref_save: "+4"
     will_save: "+4"
-    special: []
     spells_per_day:
       - level: "1st"
         spells: 3
@@ -288,7 +287,6 @@ table:
     fort_save: "+4"
     ref_save: "+8"
     will_save: "+8"
-    special: []
     spells_per_day:
       - level: "1st"
         spells: 5
@@ -349,7 +347,6 @@ table:
     fort_save: "+5"
     ref_save: "+10"
     will_save: "+10"
-    special: []
     spells_per_day:
       - level: "1st"
         spells: 5
