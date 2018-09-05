@@ -46,17 +46,17 @@ table:
       - "Fascinate"
       - "Inspire courage +1"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 1
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "2nd"
     base_attack_bonus: "+1"
@@ -67,17 +67,17 @@ table:
       - "Versatile performance"
       - "Well-versed"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 2
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "3rd"
     base_attack_bonus: "+2"
@@ -87,17 +87,17 @@ table:
     special:
       - "Inspire competence +2"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 3
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "4th"
     base_attack_bonus: "+3"
@@ -106,17 +106,17 @@ table:
     will_save: "+4"
     special: []
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 3
-      - level: 2
+      - level: "2nd"
         spells: 1
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "5th"
     base_attack_bonus: "+3"
@@ -127,17 +127,17 @@ table:
       - "Inspire courage +2"
       - "Lore master 1/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 4
-      - level: 2
+      - level: "2nd"
         spells: 2
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "6th"
     base_attack_bonus: "+4"
@@ -148,17 +148,17 @@ table:
       - "Suggestion"
       - "Versatile performance"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 4
-      - level: 2
+      - level: "2nd"
         spells: 3
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "7th"
     base_attack_bonus: "+5"
@@ -168,17 +168,17 @@ table:
     special:
       - "Inspire competence +3"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 4
-      - level: 2
+      - level: "2nd"
         spells: 3
-      - level: 3
+      - level: "3rd"
         spells: 1
-      - level: 4
+      - level: "4th"
         spells: 0
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
     level: "8th"
     base_attack_bonus: "+6/+1"
@@ -188,17 +188,17 @@ table:
     special:
       - "Dirge of doom"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 4
-      - level: 2
+      - level: "2nd"
         spells: 4
-      - level: 3
+      - level: "3rd"
         spells: 2
-      - level: 4
+      - level: "4th"
         spells: 0
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "9th"
     base_attack_bonus: "+6/+1"
@@ -208,17 +208,17 @@ table:
     special:
       - "Inspire greatness"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 4
-      - level: 3
+      - level: "3rd"
         spells: 3
-      - level: 4
+      - level: "4th"
         spells: 0
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "10th"
     base_attack_bonus: "+7/+2"
@@ -229,17 +229,17 @@ table:
       - "Jack-of-all-trades"
       - "Versatile performance"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 4
-      - level: 3
+      - level: "3rd"
         spells: 3
-      - level: 4
+      - level: "4th"
         spells: 1
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "11th"
     base_attack_bonus: "+8/+3"
@@ -251,17 +251,17 @@ table:
       - "Inspire courage +3"
       - "Lore master 2/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 4
-      - level: 3
+      - level: "3rd"
         spells: 4
-      - level: 4
+      - level: "4th"
         spells: 2
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "12th"
     base_attack_bonus: "+9/+4"
@@ -271,17 +271,17 @@ table:
     special:
       - "Soothing performance"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 5
-      - level: 3
+      - level: "3rd"
         spells: 4
-      - level: 4
+      - level: "4th"
         spells: 3
-      - level: 5
+      - level: "5th"
         spells: 0
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "13th"
     base_attack_bonus: "+9/+4"
@@ -290,17 +290,17 @@ table:
     will_save: "+8"
     special: []
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 5
-      - level: 3
+      - level: "3rd"
         spells: 4
-      - level: 4
+      - level: "4th"
         spells: 3
-      - level: 5
+      - level: "5th"
         spells: 1
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "14th"
     base_attack_bonus: "+10/+5"
@@ -311,17 +311,17 @@ table:
       - "Frightening tune"
       - "Versatile performance"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 5
-      - level: 3
+      - level: "3rd"
         spells: 4
-      - level: 4
+      - level: "4th"
         spells: 4
-      - level: 5
+      - level: "5th"
         spells: 2
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "15th"
     base_attack_bonus: "+11/+6/+1"
@@ -332,17 +332,17 @@ table:
       - "Inspire competence +5"
       - "Inspire heroics"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 5
-      - level: 3
+      - level: "3rd"
         spells: 5
-      - level: 4
+      - level: "4th"
         spells: 4
-      - level: 5
+      - level: "5th"
         spells: 3
-      - level: 6
+      - level: "6th"
         spells: 0
   - level: "16th"
     base_attack_bonus: "+12/+7/+2"
@@ -351,17 +351,17 @@ table:
     will_save: "+10"
     special: []
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 5
-      - level: 3
+      - level: "3rd"
         spells: 5
-      - level: 4
+      - level: "4th"
         spells: 4
-      - level: 5
+      - level: "5th"
         spells: 3
-      - level: 6
+      - level: "6th"
         spells: 1
   - level: "17th"
     base_attack_bonus: "+12/+7/+2"
@@ -372,17 +372,17 @@ table:
       - "Inspire courage +4"
       - "Lore master 3/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 5
-      - level: 3
+      - level: "3rd"
         spells: 5
-      - level: 4
+      - level: "4th"
         spells: 4
-      - level: 5
+      - level: "5th"
         spells: 4
-      - level: 6
+      - level: "6th"
         spells: 2
   - level: "18th"
     base_attack_bonus: "+13/+8/+3"
@@ -393,17 +393,17 @@ table:
       - "Mass suggestion"
       - "Versatile performance"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 5
-      - level: 3
+      - level: "3rd"
         spells: 5
-      - level: 4
+      - level: "4th"
         spells: 5
-      - level: 5
+      - level: "5th"
         spells: 4
-      - level: 6
+      - level: "6th"
         spells: 3
   - level: "19th"
     base_attack_bonus: "+14/+9/+4"
@@ -413,17 +413,17 @@ table:
     special:
       - "Inspire competence +6"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 5
-      - level: 3
+      - level: "3rd"
         spells: 5
-      - level: 4
+      - level: "4th"
         spells: 5
-      - level: 5
+      - level: "5th"
         spells: 5
-      - level: 6
+      - level: "6th"
         spells: 4
   - level: "20th"
     base_attack_bonus: "+15/+10/+5"
@@ -433,15 +433,15 @@ table:
     special:
       - "Deadly performance"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 5
-      - level: 2
+      - level: "2nd"
         spells: 5
-      - level: 3
+      - level: "3rd"
         spells: 5
-      - level: 4
+      - level: "4th"
         spells: 5
-      - level: 5
+      - level: "5th"
         spells: 5
-      - level: 6
+      - level: "6th"
         spells: 5
