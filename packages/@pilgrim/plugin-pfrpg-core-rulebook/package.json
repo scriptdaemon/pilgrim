@@ -1,5 +1,5 @@
 {
-  "name": "@pilgrim/plugin-psfrd-core-rulebook",
+  "name": "@pilgrim/plugin-pfrpg-core-rulebook",
   "version": "0.0.0",
   "description": "PFRPG Core Rulebook plugin for the Pilgrim character creation library.",
   "keywords": [
