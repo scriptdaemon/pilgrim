@@ -1,9 +1,9 @@
 {
   "name": "pilgrim",
   "version": "0.0.0",
-  "description": "PFSRD character creation library and command-line interface.",
+  "description": "PFRPG character creation library and command-line interface.",
   "keywords": [
-    "pfsrd"
+    "pfrpg"
   ],
   "homepage": "https://github.com/scriptdaemon/pilgrim#readme",
   "bugs": "https://github.com/scriptdaemon/pilgrim/issues",
