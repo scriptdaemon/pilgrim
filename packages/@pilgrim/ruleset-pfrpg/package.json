@@ -1,11 +1,19 @@
 {
   "name": "@pilgrim/ruleset-pfrpg",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "PFRPG ruleset for the Pilgrim character creation library.",
+  "keywords": [
+    "pfrpg",
+    "pilgrim-ruleset"
+  ],
+  "homepage": "https://github.com/scriptdaemon/pilgrim/packages/%40pilgrim/ruleset-pfrpg#readme",
+  "bugs": "https://github.com/scriptdaemon/pilgrim/issues",
+  "license": "ISC",
   "author": "Kenneth Williams <scriptdaemon@gmail.com>",
-  "license": "ISC"
+  "main": "index.js",
+  "repository": "https://github.com/scriptdaemon/pilgrim/tree/master/packages/%40pilgrim/ruleset-pfrpg",
+  "engines": {
+    "node": ">=6.9.0",
+    "npm": ">=3.10.8"
+  }
 }
