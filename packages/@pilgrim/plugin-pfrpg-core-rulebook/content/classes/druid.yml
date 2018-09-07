@@ -1,0 +1,538 @@
+name: "Druid"
+short_description: "The druid is a worshiper of all things natural-a spellcaster, a friend to animals, and a skilled shapechanger."
+description: "Within the purity of the elements and the order of the wilds lingers a power beyond the marvels of civilization. Furtive yet undeniable, these primal magics are guarded over by servants of philosophical balance known as druids. Allies to beasts and manipulators of nature, these often misunderstood protectors of the wild strive to shield their lands from all who would threaten them and prove the might of the wilds to those who lock themselves behind city walls. Rewarded for their devotion with incredible powers, druids gain unparalleled shape-shifting abilities, the companionship of mighty beasts, and the power to call upon nature’s wrath. The mightiest temper powers akin to storms, earthquakes, and volcanoes with primeval wisdom long abandoned and forgotten by civilization."
+role: "While some druids might keep to the fringe of battle, allowing companions and summoned creatures to fight while they confound foes with the powers of nature, others transform into deadly beasts and savagely wade into combat. Druids worship personifications of elemental forces, natural powers, or nature itself. Typically this means devotion to a nature deity, though druids are just as likely to revere vague spirits, animalistic demigods, or even specific awe-inspiring natural wonders."
+alignment: "Any neutral"
+hit_die: "d8"
+starting_wealth: "2d6 × 10 gp"
+class_skills:
+  - "Climb (Str)"
+  - "Craft (Int)"
+  - "Fly (Dex)"
+  - "Handle Animal (Cha)"
+  - "Heal (Wis)"
+  - "Knowledge (geography) (Int)"
+  - "Knowledge (nature) (Int)"
+  - "Perception (Wis)"
+  - "Profession (Wis)"
+  - "Ride (Dex)"
+  - "Spellcraft (Int)"
+  - "Survival (Wis)"
+  - "Swim (Str)"
+skill_ranks_per_level: "4 + Int modifier"
+max_spell_level: "9th"
+table:
+  - level: "1st"
+    base_attack_bonus: "+0"
+    fort_save: "+2"
+    ref_save: "+0"
+    will_save: "+2"
+    special:
+      - "Nature bond"
+      - "Nature sense"
+      - "Orisons"
+      - "Wild empathy"
+    spells_per_day:
+      - level: "1st"
+        spells: 3
+      - level: "2nd"
+        spells: 0
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "2nd"
+    base_attack_bonus: "+1"
+    fort_save: "+3"
+    ref_save: "+0"
+    will_save: "+3"
+    special:
+      - "Woodland stride"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 0
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "3rd"
+    base_attack_bonus: "+2"
+    fort_save: "+3"
+    ref_save: "+1"
+    will_save: "+3"
+    special:
+      - "Trackless step"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 1
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "4th"
+    base_attack_bonus: "+3"
+    fort_save: "+4"
+    ref_save: "+1"
+    will_save: "+4"
+    special:
+      - "Resist nature’s lure"
+      - "Wild shape (1/day)"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 2
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "5th"
+    base_attack_bonus: "+3"
+    fort_save: "+4"
+    ref_save: "+1"
+    will_save: "+4"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 2
+      - level: "3rd"
+        spells: 1
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "6th"
+    base_attack_bonus: "+4"
+    fort_save: "+5"
+    ref_save: "+2"
+    will_save: "+5"
+    special:
+      - "Wild shape (2/day)"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 3
+      - level: "3rd"
+        spells: 2
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "7th"
+    base_attack_bonus: "+5"
+    fort_save: "+5"
+    ref_save: "+2"
+    will_save: "+5"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 3
+      - level: "3rd"
+        spells: 2
+      - level: "4th"
+        spells: 1
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "8th"
+    base_attack_bonus: "+6/+1"
+    fort_save: "+6"
+    ref_save: "+2"
+    will_save: "+6"
+    special:
+      - "Wild shape (3/day)"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 3
+      - level: "3rd"
+        spells: 3
+      - level: "4th"
+        spells: 2
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "9th"
+    base_attack_bonus: "+6/+1"
+    fort_save: "+6"
+    ref_save: "+3"
+    will_save: "+6"
+    special:
+      - "Venom immunity"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 3
+      - level: "4th"
+        spells: 2
+      - level: "5th"
+        spells: 1
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "10th"
+    base_attack_bonus: "+7/+2"
+    fort_save: "+7"
+    ref_save: "+3"
+    will_save: "+7"
+    special:
+      - "Wild shape (4/day)"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 3
+      - level: "4th"
+        spells: 3
+      - level: "5th"
+        spells: 2
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "11th"
+    base_attack_bonus: "+8/+3"
+    fort_save: "+7"
+    ref_save: "+3"
+    will_save: "+7"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 3
+      - level: "5th"
+        spells: 2
+      - level: "6th"
+        spells: 1
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "12th"
+    base_attack_bonus: "+9/+4"
+    fort_save: "+8"
+    ref_save: "+4"
+    will_save: "+8"
+    special:
+      - "Wild shape (5/day)"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 3
+      - level: "5th"
+        spells: 3
+      - level: "6th"
+        spells: 2
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "13th"
+    base_attack_bonus: "+9/+4"
+    fort_save: "+8"
+    ref_save: "+4"
+    will_save: "+8"
+    special:
+      - "A thousand faces"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 3
+      - level: "6th"
+        spells: 2
+      - level: "7th"
+        spells: 1
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "14th"
+    base_attack_bonus: "+10/+5"
+    fort_save: "+9"
+    ref_save: "+4"
+    will_save: "+9"
+    special:
+      - "Wild shape (6/day)"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 3
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 2
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "15th"
+    base_attack_bonus: "+11/+6/+1"
+    fort_save: "+9"
+    ref_save: "+5"
+    will_save: "+9"
+    special:
+      - "Timeless body"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 2
+      - level: "8th"
+        spells: 1
+      - level: "9th"
+        spells: 0
+  - level: "16th"
+    base_attack_bonus: "+12/+7/+2"
+    fort_save: "+10"
+    ref_save: "+5"
+    will_save: "+10"
+    special:
+      - "Wild shape (7/day)"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 3
+      - level: "8th"
+        spells: 2
+      - level: "9th"
+        spells: 0
+  - level: "17th"
+    base_attack_bonus: "+12/+7/+2"
+    fort_save: "+10"
+    ref_save: "+5"
+    will_save: "+10"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 4
+      - level: "7th"
+        spells: 3
+      - level: "8th"
+        spells: 2
+      - level: "9th"
+        spells: 1
+  - level: "18th"
+    base_attack_bonus: "+13/+8/+3"
+    fort_save: "+11"
+    ref_save: "+6"
+    will_save: "+11"
+    special:
+      - "Wild shape (8/day)"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 4
+      - level: "7th"
+        spells: 3
+      - level: "8th"
+        spells: 3
+      - level: "9th"
+        spells: 2
+  - level: "19th"
+    base_attack_bonus: "+14/+9/+4"
+    fort_save: "+11"
+    ref_save: "+6"
+    will_save: "+11"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 4
+      - level: "7th"
+        spells: 4
+      - level: "8th"
+        spells: 3
+      - level: "9th"
+        spells: 3
+  - level: "20th"
+    base_attack_bonus: "+15/+10/+5"
+    fort_save: "+12"
+    ref_save: "+6"
+    will_save: "+12"
+    special:
+      - "Wild shape (at will)"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 4
+      - level: "7th"
+        spells: 4
+      - level: "8th"
+        spells: 4
+      - level: "9th"
+        spells: 4
