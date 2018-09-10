@@ -1,0 +1,954 @@
+#
+# Core Class
+#
+
+name: "Sorcerer"
+short_description: "The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers."
+description: "Scions of innately magical bloodlines, the chosen of deities, the spawn of monsters, pawns of fate and destiny, or simply flukes of fickle magic, sorcerers look within themselves for arcane prowess and draw forth might few mortals can imagine. Emboldened by lives ever threatening to be consumed by their innate powers, these magic-touched souls endlessly indulge in and refine their mysterious abilities, gradually learning how to harness their birthright and coax forth ever greater arcane feats. Just as varied as these innately powerful spellcasters’ abilities and inspirations are the ways in which they choose to utilize their gifts. While some seek to control their abilities through meditation and discipline, becoming masters of their fantastic birthright, others give in to their magic, letting it rule their lives with often explosive results. Regardless, sorcerers live and breathe that which other spellcasters devote their lives to mastering, and for them magic is more than a boon or a field of study; it is life itself."
+role: "Sorcerers excel at casting a selection of favored spells frequently, making them powerful battle mages. As they become familiar with a specific and ever-widening set of spells, sorcerers often discover new and versatile ways of making use of magics other spellcasters might overlook. Their bloodlines also grant them additional abilities, assuring that no two sorcerers are ever quite alike."
+alignment: "Any"
+hit_die: "d6"
+starting_wealth: "2d6 × 10 gp"
+class_skills:
+  - "Appraise (Int)"
+  - "Bluff (Cha)"
+  - "Craft (Int)"
+  - "Fly (Dex)"
+  - "Intimidate (Cha)"
+  - "Knowledge (arcana) (Int)"
+  - "Profession (Wis)"
+  - "Spellcraft (Int)"
+  - "Use Magic Device (Cha)"
+skill_ranks_per_level: "2 + Int modifier"
+max_spell_level: 9
+table:
+  - level: "1st"
+    base_attack_bonus: "+0"
+    fort_save: "+0"
+    ref_save: "+0"
+    will_save: "+2"
+    special:
+      - "Bloodline power"
+      - "Cantrips"
+      - "Eschew materials"
+    spells_per_day:
+      - level: "1st"
+        spells: 3
+      - level: "2nd"
+        spells: 0
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 4
+      - level: "1st"
+        spells: 2
+      - level: "2nd"
+        spells: 0
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "2nd"
+    base_attack_bonus: "+1"
+    fort_save: "+0"
+    ref_save: "+0"
+    will_save: "+3"
+    spells_per_day:
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 0
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 5
+      - level: "1st"
+        spells: 2
+      - level: "2nd"
+        spells: 0
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "3rd"
+    base_attack_bonus: "+1"
+    fort_save: "+1"
+    ref_save: "+1"
+    will_save: "+3"
+    special:
+      - "Bloodline power"
+      - "Bloodline spell"
+    spells_per_day:
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 0
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 5
+      - level: "1st"
+        spells: 3
+      - level: "2nd"
+        spells: 0
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "4th"
+    base_attack_bonus: "+2"
+    fort_save: "+1"
+    ref_save: "+1"
+    will_save: "+4"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 3
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 6
+      - level: "1st"
+        spells: 3
+      - level: "2nd"
+        spells: 1
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "5th"
+    base_attack_bonus: "+2"
+    fort_save: "+1"
+    ref_save: "+1"
+    will_save: "+4"
+    special:
+      - "Bloodline spell"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 6
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 2
+      - level: "3rd"
+        spells: 0
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "6th"
+    base_attack_bonus: "+3"
+    fort_save: "+2"
+    ref_save: "+2"
+    will_save: "+5"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 3
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 7
+      - level: "1st"
+        spells: 4
+      - level: "2nd"
+        spells: 2
+      - level: "3rd"
+        spells: 1
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "7th"
+    base_attack_bonus: "+3"
+    fort_save: "+2"
+    ref_save: "+2"
+    will_save: "+5"
+    special:
+      - "Bloodline feat"
+      - "Bloodline spell"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 7
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 3
+      - level: "3rd"
+        spells: 2
+      - level: "4th"
+        spells: 0
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "8th"
+    base_attack_bonus: "+4"
+    fort_save: "+2"
+    ref_save: "+2"
+    will_save: "+6"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 5
+      - level: "4th"
+        spells: 3
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 8
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 3
+      - level: "3rd"
+        spells: 2
+      - level: "4th"
+        spells: 1
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "9th"
+    base_attack_bonus: "+4"
+    fort_save: "+3"
+    ref_save: "+3"
+    will_save: "+6"
+    special:
+      - "Bloodline power"
+      - "Bloodline spell"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 8
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 3
+      - level: "4th"
+        spells: 2
+      - level: "5th"
+        spells: 0
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "10th"
+    base_attack_bonus: "+5"
+    fort_save: "+3"
+    ref_save: "+3"
+    will_save: "+7"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 5
+      - level: "5th"
+        spells: 3
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 4
+      - level: "3rd"
+        spells: 3
+      - level: "4th"
+        spells: 2
+      - level: "5th"
+        spells: 1
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "11th"
+    base_attack_bonus: "+5"
+    fort_save: "+3"
+    ref_save: "+3"
+    will_save: "+7"
+    special:
+      - "Bloodline spell"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 3
+      - level: "5th"
+        spells: 2
+      - level: "6th"
+        spells: 0
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "12th"
+    base_attack_bonus: "+6/+1"
+    fort_save: "+4"
+    ref_save: "+4"
+    will_save: "+8"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 5
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 3
+      - level: "5th"
+        spells: 2
+      - level: "6th"
+        spells: 1
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "13th"
+    base_attack_bonus: "+6/+1"
+    fort_save: "+4"
+    ref_save: "+4"
+    will_save: "+8"
+    special:
+      - "Bloodline feat"
+      - "Bloodline spell"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 6
+      - level: "6th"
+        spells: 4
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 3
+      - level: "6th"
+        spells: 2
+      - level: "7th"
+        spells: 0
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "14th"
+    base_attack_bonus: "+7/+2"
+    fort_save: "+4"
+    ref_save: "+4"
+    will_save: "+9"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 6
+      - level: "6th"
+        spells: 5
+      - level: "7th"
+        spells: 3
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 3
+      - level: "6th"
+        spells: 2
+      - level: "7th"
+        spells: 1
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "15th"
+    base_attack_bonus: "+7/+2"
+    fort_save: "+5"
+    ref_save: "+5"
+    will_save: "+9"
+    special:
+      - "Bloodline power"
+      - "Bloodline spell"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 6
+      - level: "6th"
+        spells: 6
+      - level: "7th"
+        spells: 4
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 2
+      - level: "8th"
+        spells: 0
+      - level: "9th"
+        spells: 0
+  - level: "16th"
+    base_attack_bonus: "+8/+3"
+    fort_save: "+5"
+    ref_save: "+5"
+    will_save: "+10"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 6
+      - level: "6th"
+        spells: 6
+      - level: "7th"
+        spells: 5
+      - level: "8th"
+        spells: 3
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 2
+      - level: "8th"
+        spells: 1
+      - level: "9th"
+        spells: 0
+  - level: "17th"
+    base_attack_bonus: "+8/+3"
+    fort_save: "+5"
+    ref_save: "+5"
+    will_save: "+10"
+    special:
+      - "Bloodline spell"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 6
+      - level: "6th"
+        spells: 6
+      - level: "7th"
+        spells: 6
+      - level: "8th"
+        spells: 4
+      - level: "9th"
+        spells: 0
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 3
+      - level: "8th"
+        spells: 2
+      - level: "9th"
+        spells: 0
+  - level: "18th"
+    base_attack_bonus: "+9/+4"
+    fort_save: "+6"
+    ref_save: "+6"
+    will_save: "+11"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 6
+      - level: "6th"
+        spells: 6
+      - level: "7th"
+        spells: 6
+      - level: "8th"
+        spells: 5
+      - level: "9th"
+        spells: 3
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 3
+      - level: "8th"
+        spells: 2
+      - level: "9th"
+        spells: 1
+  - level: "19th"
+    base_attack_bonus: "+9/+4"
+    fort_save: "+6"
+    ref_save: "+6"
+    will_save: "+11"
+    special:
+      - "Bloodline feat"
+      - "Bloodline spell"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 6
+      - level: "6th"
+        spells: 6
+      - level: "7th"
+        spells: 6
+      - level: "8th"
+        spells: 6
+      - level: "9th"
+        spells: 4
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 3
+      - level: "8th"
+        spells: 3
+      - level: "9th"
+        spells: 2
+  - level: "20th"
+    base_attack_bonus: "+10/+5"
+    fort_save: "+6"
+    ref_save: "+6"
+    will_save: "+12"
+    special:
+      - "Bloodline power"
+    spells_per_day:
+      - level: "1st"
+        spells: 6
+      - level: "2nd"
+        spells: 6
+      - level: "3rd"
+        spells: 6
+      - level: "4th"
+        spells: 6
+      - level: "5th"
+        spells: 6
+      - level: "6th"
+        spells: 6
+      - level: "7th"
+        spells: 6
+      - level: "8th"
+        spells: 6
+      - level: "9th"
+        spells: 6
+    spells_known:
+      - level: "0th"
+        spells: 9
+      - level: "1st"
+        spells: 5
+      - level: "2nd"
+        spells: 5
+      - level: "3rd"
+        spells: 4
+      - level: "4th"
+        spells: 4
+      - level: "5th"
+        spells: 4
+      - level: "6th"
+        spells: 3
+      - level: "7th"
+        spells: 3
+      - level: "8th"
+        spells: 3
+      - level: "9th"
+        spells: 3
