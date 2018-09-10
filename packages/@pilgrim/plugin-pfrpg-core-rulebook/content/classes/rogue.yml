@@ -32,7 +32,6 @@ class_skills:
   - "Swim (Str)"
   - "Use Magic Device (Cha)"
 skill_ranks_per_level: "8 + Int modifier"
-max_spell_level: 0
 table:
   - level: "1st"
     base_attack_bonus: "+0"

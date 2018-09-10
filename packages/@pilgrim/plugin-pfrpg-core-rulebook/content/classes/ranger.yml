@@ -26,7 +26,6 @@ class_skills:
   - "Survival (Wis)"
   - "Swim (Str)"
 skill_ranks_per_level: "6 + Int modifier"
-max_spell_level: 4
 table:
   - level: "1st"
     base_attack_bonus: "+1"

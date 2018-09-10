@@ -18,7 +18,6 @@ class_skills:
   - "Profession (Wis)"
   - "Spellcraft (Int)"
 skill_ranks_per_level: "2 + Int modifier"
-max_spell_level: 9
 table:
   - level: "1st"
     base_attack_bonus: "+0"

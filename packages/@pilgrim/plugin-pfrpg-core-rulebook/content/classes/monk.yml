@@ -25,7 +25,6 @@ class_skills:
   - "Stealth (Dex)"
   - "Swim (Str)"
 skill_ranks_per_level: "4 + Int modifier"
-max_spell_level: 0
 table:
   - level: "1st"
     base_attack_bonus: "+0"

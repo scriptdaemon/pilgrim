@@ -20,7 +20,6 @@ class_skills:
   - "Spellcraft (Int)"
   - "Use Magic Device (Cha)"
 skill_ranks_per_level: "2 + Int modifier"
-max_spell_level: 9
 table:
   - level: "1st"
     base_attack_bonus: "+0"

@@ -21,7 +21,6 @@ class_skills:
   - "Sense Motive (Wis)"
   - "Spellcraft (Int)"
 skill_ranks_per_level: "2 + Int modifier"
-max_spell_level: 4
 table:
   - level: "1st"
     base_attack_bonus: "+1"
