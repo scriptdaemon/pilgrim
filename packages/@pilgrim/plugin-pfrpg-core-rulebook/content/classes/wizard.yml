@@ -127,7 +127,7 @@ table:
     ref_save: "+1"
     will_save: "+4"
     special:
-      "Bonus feat"
+      - "Bonus feat"
     spells_per_day:
       - level: "1st"
         spells: 4
