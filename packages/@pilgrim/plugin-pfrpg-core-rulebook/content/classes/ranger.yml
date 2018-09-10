@@ -4,6 +4,7 @@ description: "For those who relish the thrill of the hunt, there are only predat
 role: "Ranger are deft skirmishers, either in melee or at range, capable of skillfully dancing in and out of battle. Their abilities allow them to deal significant harm to specific types of foes, but their skills are valuable against all manner of enemies."
 alignment: "Any"
 hit_die: "d10"
+starting_wealth: "5d6 × 10 gp"
 class_skills:
   - "Climb (Str)"
   - "Craft (Int)"
