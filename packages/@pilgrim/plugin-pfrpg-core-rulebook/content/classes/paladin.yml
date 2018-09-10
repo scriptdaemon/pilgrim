@@ -29,13 +29,13 @@ table:
       - "Detect evil"
       - "Smite evil 1/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 0
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "2nd"
     base_attack_bonus: "+2"
@@ -46,13 +46,13 @@ table:
       - "Divine grace"
       - "Lay on hands"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 0
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "3rd"
     base_attack_bonus: "+3"
@@ -64,13 +64,13 @@ table:
       - "Divine health"
       - "Mercy"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 0
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "4th"
     base_attack_bonus: "+4"
@@ -81,13 +81,13 @@ table:
       - "Channel positive energy"
       - "Smite evil 2/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 0
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "5th"
     base_attack_bonus: "+5"
@@ -97,13 +97,13 @@ table:
     special:
       - "Divine bond"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 1
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
        spells: 0
   - level: "6th"
     base_attack_bonus: "+6/+1"
@@ -113,13 +113,13 @@ table:
     special:
       - "Mercy"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 1
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "7th"
     base_attack_bonus: "+7/+2"
@@ -129,13 +129,13 @@ table:
     special:
       - "Smite evil 3/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 1
-      - level: 2
+      - level: "2nd"
         spells: 0
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "8th"
     base_attack_bonus: "+8/+3"
@@ -145,13 +145,13 @@ table:
     special:
       - "Aura of resolve"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 1
-      - level: 2
+      - level: "2nd"
         spells: 1
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "9th"
     base_attack_bonus: "+9/+4"
@@ -161,13 +161,13 @@ table:
     special:
       - "Mercy"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 2
-      - level: 2
+      - level: "2nd"
         spells: 1
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "10th"
     base_attack_bonus: "+10/+5"
@@ -177,13 +177,13 @@ table:
     special:
       - "Smite evil 4/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 2
-      - level: 2
+      - level: "2nd"
         spells: 1
-      - level: 3
+      - level: "3rd"
         spells: 0
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "11th"
     base_attack_bonus: "+11/+6/+1"
@@ -193,13 +193,13 @@ table:
     special:
       - "Aura of justice"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 2
-      - level: 2
+      - level: "2nd"
         spells: 1
-      - level: 3
+      - level: "3rd"
         spells: 1
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "12th"
     base_attack_bonus: "+12/+7/+2"
@@ -209,13 +209,13 @@ table:
     special:
       - "Mercy"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 2
-      - level: 2
+      - level: "2nd"
         spells: 2
-      - level: 3
+      - level: "3rd"
         spells: 1
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "13th"
     base_attack_bonus: "+13/+8/+3"
@@ -225,13 +225,13 @@ table:
     special:
       - "Smite evil 5/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 3
-      - level: 2
+      - level: "2nd"
         spells: 2
-      - level: 3
+      - level: "3rd"
         spells: 1
-      - level: 4
+      - level: "4th"
         spells: 0
   - level: "14th"
     base_attack_bonus: "+14/+9/+4"
@@ -241,13 +241,13 @@ table:
     special:
       - "Aura of faith"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 3
-      - level: 2
+      - level: "2nd"
         spells: 2
-      - level: 3
+      - level: "3rd"
         spells: 1
-      - level: 4
+      - level: "4th"
         spells: 1
   - level: "15th"
     base_attack_bonus: "+15/+10/+5"
@@ -257,13 +257,13 @@ table:
     special:
       - "Mercy"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 3
-      - level: 2
+      - level: "2nd"
         spells: 2
-      - level: 3
+      - level: "3rd"
         spells: 2
-      - level: 4
+      - level: "4th"
         spells: 1
   - level: "16th"
     base_attack_bonus: "+16/+11/+6/+1"
@@ -273,13 +273,13 @@ table:
     special:
       - "Smite evil 6/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 3
-      - level: 2
+      - level: "2nd"
         spells: 3
-      - level: 3
+      - level: "3rd"
         spells: 2
-      - level: 4
+      - level: "4th"
         spells: 1
   - level: "17th"
     base_attack_bonus: "+17/+12/+7/+2"
@@ -289,13 +289,13 @@ table:
     special:
       - "Aura of righteousness"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 4
-      - level: 2
+      - level: "2nd"
         spells: 3
-      - level: 3
+      - level: "3rd"
         spells: 2
-      - level: 4
+      - level: "4th"
         spells: 1
   - level: "18th"
     base_attack_bonus: "+18/+13/+8/+3"
@@ -305,13 +305,13 @@ table:
     special:
       - "Mercy"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 4
-      - level: 2
+      - level: "2nd"
         spells: 3
-      - level: 3
+      - level: "3rd"
         spells: 2
-      - level: 4
+      - level: "4th"
         spells: 2
   - level: "19th"
     base_attack_bonus: "+19/+14/+9/+4"
@@ -321,13 +321,13 @@ table:
     special:
       - "Smite evil 7/day"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 4
-      - level: 2
+      - level: "2nd"
         spells: 3
-      - level: 3
+      - level: "3rd"
         spells: 3
-      - level: 4
+      - level: "4th"
         spells: 2
   - level: "20th"
     base_attack_bonus: "+20/+15/+10/+5"
@@ -337,11 +337,11 @@ table:
     special:
       - "Holy champion"
     spells_per_day:
-      - level: 1
+      - level: "1st"
         spells: 4
-      - level: 2
+      - level: "2nd"
         spells: 4
-      - level: 3
+      - level: "3rd"
         spells: 3
-      - level: 4
+      - level: "4th"
         spells: 3
