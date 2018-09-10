@@ -1,0 +1,347 @@
+name: "Paladin"
+short_description: "The paladin is the knight in shining armor, a devoted follower of law and good."
+description: "Through a select, worthy few shines the power of the divine. Called paladins, these noble souls dedicate their swords and lives to the battle against evil. Knights, crusaders, and law-bringers, paladins seek not just to spread divine justice but to embody the teachings of the virtuous deities they serve. In pursuit of their lofty goals, they adhere to ironclad laws of morality and discipline. As reward for their righteousness, these holy champions are blessed with boons to aid them in their quests: powers to banish evil, heal the innocent, and inspire the faithful. Although their convictions might lead them into conflict with the very souls they would save, paladins weather endless challenges of faith and dark temptations, risking their lives to do right and fighting to bring about a brighter future."
+role: "Paladins serve as beacons for their allies within the chaos of battle. While deadly opponents of evil, they can also empower goodly souls to aid in their crusades. Their magic and martial skills also make them well suited to defending others and blessing the fallen with the strength to continue fighting."
+alignment: "Lawful good"
+hit_die: "d10"
+starting_wealth: "5d6 × 10 gp"
+class_skills:
+  - "Craft (Int)"
+  - "Diplomacy (Cha)"
+  - "Handle Animal (Cha)"
+  - "Heal (Wis)"
+  - "Knowledge (nobility) (Int)"
+  - "Knowledge (religion) (Int)"
+  - "Profession (Wis)"
+  - "Ride (Dex)"
+  - "Sense Motive (Wis)"
+  - "Spellcraft (Int)"
+skill_ranks_per_level: "2 + Int modifier"
+max_spell_level: 4
+table:
+  - level: "1st"
+    base_attack_bonus: "+1"
+    fort_save: "+2"
+    ref_save: "+0"
+    will_save: "+2"
+    special:
+      - "Aura of good"
+      - "Detect evil"
+      - "Smite evil 1/day"
+    spells_per_day:
+      - level: 1
+        spells: 0
+      - level: 2
+        spells: 0
+      - level: 3
+        spells: 0
+      - level: 4
+        spells: 0
+  - level: "2nd"
+    base_attack_bonus: "+2"
+    fort_save: "+3"
+    ref_save: "+0"
+    will_save: "+3"
+    special:
+      - "Divine grace"
+      - "Lay on hands"
+    spells_per_day:
+      - level: 1
+        spells: 0
+      - level: 2
+        spells: 0
+      - level: 3
+        spells: 0
+      - level: 4
+        spells: 0
+  - level: "3rd"
+    base_attack_bonus: "+3"
+    fort_save: "+3"
+    ref_save: "+1"
+    will_save: "+3"
+    special:
+      - "Aura of courage"
+      - "Divine health"
+      - "Mercy"
+    spells_per_day:
+      - level: 1
+        spells: 0
+      - level: 2
+        spells: 0
+      - level: 3
+        spells: 0
+      - level: 4
+        spells: 0
+  - level: "4th"
+    base_attack_bonus: "+4"
+    fort_save: "+4"
+    ref_save: "+1"
+    will_save: "+4"
+    special:
+      - "Channel positive energy"
+      - "Smite evil 2/day"
+    spells_per_day:
+      - level: 1
+        spells: 0
+      - level: 2
+        spells: 0
+      - level: 3
+        spells: 0
+      - level: 4
+        spells: 0
+  - level: "5th"
+    base_attack_bonus: "+5"
+    fort_save: "+4"
+    ref_save: "+1"
+    will_save: "+4"
+    special:
+      - "Divine bond"
+    spells_per_day:
+      - level: 1
+        spells: 1
+      - level: 2
+        spells: 0
+      - level: 3
+        spells: 0
+      - level: 4
+       spells: 0
+  - level: "6th"
+    base_attack_bonus: "+6/+1"
+    fort_save: "+5"
+    ref_save: "+2"
+    will_save: "+5"
+    special:
+      - "Mercy"
+    spells_per_day:
+      - level: 1
+        spells: 1
+      - level: 2
+        spells: 0
+      - level: 3
+        spells: 0
+      - level: 4
+        spells: 0
+  - level: "7th"
+    base_attack_bonus: "+7/+2"
+    fort_save: "+5"
+    ref_save: "+2"
+    will_save: "+5"
+    special:
+      - "Smite evil 3/day"
+    spells_per_day:
+      - level: 1
+        spells: 1
+      - level: 2
+        spells: 0
+      - level: 3
+        spells: 0
+      - level: 4
+        spells: 0
+  - level: "8th"
+    base_attack_bonus: "+8/+3"
+    fort_save: "+6"
+    ref_save: "+2"
+    will_save: "+6"
+    special:
+      - "Aura of resolve"
+    spells_per_day:
+      - level: 1
+        spells: 1
+      - level: 2
+        spells: 1
+      - level: 3
+        spells: 0
+      - level: 4
+        spells: 0
+  - level: "9th"
+    base_attack_bonus: "+9/+4"
+    fort_save: "+6"
+    ref_save: "+3"
+    will_save: "+6"
+    special:
+      - "Mercy"
+    spells_per_day:
+      - level: 1
+        spells: 2
+      - level: 2
+        spells: 1
+      - level: 3
+        spells: 0
+      - level: 4
+        spells: 0
+  - level: "10th"
+    base_attack_bonus: "+10/+5"
+    fort_save: "+7"
+    ref_save: "+3"
+    will_save: "+7"
+    special:
+      - "Smite evil 4/day"
+    spells_per_day:
+      - level: 1
+        spells: 2
+      - level: 2
+        spells: 1
+      - level: 3
+        spells: 0
+      - level: 4
+        spells: 0
+  - level: "11th"
+    base_attack_bonus: "+11/+6/+1"
+    fort_save: "+7"
+    ref_save: "+3"
+    will_save: "+7"
+    special:
+      - "Aura of justice"
+    spells_per_day:
+      - level: 1
+        spells: 2
+      - level: 2
+        spells: 1
+      - level: 3
+        spells: 1
+      - level: 4
+        spells: 0
+  - level: "12th"
+    base_attack_bonus: "+12/+7/+2"
+    fort_save: "+8"
+    ref_save: "+4"
+    will_save: "+8"
+    special:
+      - "Mercy"
+    spells_per_day:
+      - level: 1
+        spells: 2
+      - level: 2
+        spells: 2
+      - level: 3
+        spells: 1
+      - level: 4
+        spells: 0
+  - level: "13th"
+    base_attack_bonus: "+13/+8/+3"
+    fort_save: "+8"
+    ref_save: "+4"
+    will_save: "+8"
+    special:
+      - "Smite evil 5/day"
+    spells_per_day:
+      - level: 1
+        spells: 3
+      - level: 2
+        spells: 2
+      - level: 3
+        spells: 1
+      - level: 4
+        spells: 0
+  - level: "14th"
+    base_attack_bonus: "+14/+9/+4"
+    fort_save: "+9"
+    ref_save: "+4"
+    will_save: "+9"
+    special:
+      - "Aura of faith"
+    spells_per_day:
+      - level: 1
+        spells: 3
+      - level: 2
+        spells: 2
+      - level: 3
+        spells: 1
+      - level: 4
+        spells: 1
+  - level: "15th"
+    base_attack_bonus: "+15/+10/+5"
+    fort_save: "+9"
+    ref_save: "+5"
+    will_save: "+9"
+    special:
+      - "Mercy"
+    spells_per_day:
+      - level: 1
+        spells: 3
+      - level: 2
+        spells: 2
+      - level: 3
+        spells: 2
+      - level: 4
+        spells: 1
+  - level: "16th"
+    base_attack_bonus: "+16/+11/+6/+1"
+    fort_save: "+10"
+    ref_save: "+5"
+    will_save: "+10"
+    special:
+      - "Smite evil 6/day"
+    spells_per_day:
+      - level: 1
+        spells: 3
+      - level: 2
+        spells: 3
+      - level: 3
+        spells: 2
+      - level: 4
+        spells: 1
+  - level: "17th"
+    base_attack_bonus: "+17/+12/+7/+2"
+    fort_save: "+10"
+    ref_save: "+5"
+    will_save: "+10"
+    special:
+      - "Aura of righteousness"
+    spells_per_day:
+      - level: 1
+        spells: 4
+      - level: 2
+        spells: 3
+      - level: 3
+        spells: 2
+      - level: 4
+        spells: 1
+  - level: "18th"
+    base_attack_bonus: "+18/+13/+8/+3"
+    fort_save: "+11"
+    ref_save: "+6"
+    will_save: "+11"
+    special:
+      - "Mercy"
+    spells_per_day:
+      - level: 1
+        spells: 4
+      - level: 2
+        spells: 3
+      - level: 3
+        spells: 2
+      - level: 4
+        spells: 2
+  - level: "19th"
+    base_attack_bonus: "+19/+14/+9/+4"
+    fort_save: "+11"
+    ref_save: "+6"
+    will_save: "+11"
+    special:
+      - "Smite evil 7/day"
+    spells_per_day:
+      - level: 1
+        spells: 4
+      - level: 2
+        spells: 3
+      - level: 3
+        spells: 3
+      - level: 4
+        spells: 2
+  - level: "20th"
+    base_attack_bonus: "+20/+15/+10/+5"
+    fort_save: "+12"
+    ref_save: "+6"
+    will_save: "+12"
+    special:
+      - "Holy champion"
+    spells_per_day:
+      - level: 1
+        spells: 4
+      - level: 2
+        spells: 4
+      - level: 3
+        spells: 3
+      - level: 4
+        spells: 3
