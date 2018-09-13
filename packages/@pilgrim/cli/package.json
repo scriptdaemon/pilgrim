@@ -1,11 +1,20 @@
 {
   "name": "@pilgrim/cli",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Command-line interface for the Pilgrim character creation library.",
+  "keywords": [
+    "cli",
+    "pilgrim",
+    "pilgrim-cli"
+  ],
+  "homepage": "https://github.com/scriptdaemon/pilgrim/packages/%40pilgrim/cli#readme",
+  "bugs": "https://github.com/scriptdaemon/pilgrim/issues",
+  "license": "ISC",
   "author": "Kenneth Williams <scriptdaemon@gmail.com>",
-  "license": "ISC"
+  "main": "index.js",
+  "repository": "https://github.com/scriptdaemon/pilgrim/tree/master/packages/%40pilgrim/cli",
+  "engines": {
+    "node": ">=6.9.0",
+    "npm": ">=3.10.8"
+  }
 }
