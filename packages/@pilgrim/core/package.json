@@ -1,11 +1,18 @@
 {
   "name": "@pilgrim/core",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Pilgrim character creation library core.",
+  "keywords": [
+    "pilgrim"
+  ],
+  "homepage": "https://github.com/scriptdaemon/pilgrim/packages/%40pilgrim/core#readme",
+  "bugs": "https://github.com/scriptdaemon/pilgrim/issues",
+  "license": "ISC",
   "author": "Kenneth Williams <scriptdaemon@gmail.com>",
-  "license": "ISC"
+  "main": "index.js",
+  "repository": "https://github.com/scriptdaemon/pilgrim/tree/master/packages/%40pilgrim/core",
+  "engines": {
+    "node": ">=6.9.0",
+    "npm": ">=3.10.8"
+  }
 }
