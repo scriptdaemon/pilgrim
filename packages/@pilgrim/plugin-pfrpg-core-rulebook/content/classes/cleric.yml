@@ -3,10 +3,37 @@
 #
 
 name: "Cleric"
-short_description: "A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods."
-description: "In faith and the miracles of the divine, many find a greater purpose. Called to serve powers beyond most mortal understanding, all priests preach wonders and provide for the spiritual needs of their people. Clerics are more than mere priests, though; these emissaries of the divine work the will of their deities through strength of arms and the magic of their gods. Devoted to the tenets of the religions and philosophies that inspire them, these ecclesiastics quest to spread the knowledge and influence of their faith. Yet while they might share similar abilities, clerics prove as different from one another as the divinities they serve, with some offering healing and redemption, others judging law and truth, and still others spreading conflict and corruption. The ways of the cleric are varied, yet all who tread these paths walk with the mightiest of allies and bear the arms of the gods themselves."
-role: "More than capable of upholding the honor of their deities in battle, clerics often prove stalwart and capable combatants. Their true strength lies in their capability to draw upon the power of their deities, whether to increase their own and their allies’ prowess in battle, to vex their foes with divine magic, or to lend healing to companions in need. As their powers are influenced by their faith, all clerics must focus their worship upon a divine source. While the vast majority of clerics revere a specific deity, a small number dedicate themselves to a divine concept worthy of devotion—such as battle, death, justice, or knowledge—free of a deific abstraction. (Work with your GM if you prefer this path to selecting a specific deity.)"
-alignment: "A cleric’s alignment must be within one step of her deity’s, along either the law/chaos axis or the good/evil axis."
+short_description: >-
+  A devout follower of a deity, the cleric can heal wounds, raise the dead, and
+  call down the wrath of the gods."
+description: >-
+  In faith and the miracles of the divine, many find a greater purpose. Called
+  to serve powers beyond most mortal understanding, all priests preach wonders
+  and provide for the spiritual needs of their people. Clerics are more than
+  mere priests, though; these emissaries of the divine work the will of their
+  deities through strength of arms and the magic of their gods. Devoted to the
+  tenets of the religions and philosophies that inspire them, these
+  ecclesiastics quest to spread the knowledge and influence of their faith. Yet
+  while they might share similar abilities, clerics prove as different from one
+  another as the divinities they serve, with some offering healing and
+  redemption, others judging law and truth, and still others spreading conflict
+  and corruption. The ways of the cleric are varied, yet all who tread these
+  paths walk with the mightiest of allies and bear the arms of the gods
+  themselves.
+role: >-
+  More than capable of upholding the honor of their deities in battle, clerics
+  often prove stalwart and capable combatants. Their true strength lies in their
+  capability to draw upon the power of their deities, whether to increase their
+  own and their allies’ prowess in battle, to vex their foes with divine magic,
+  or to lend healing to companions in need. As their powers are influenced by
+  their faith, all clerics must focus their worship upon a divine source. While
+  the vast majority of clerics revere a specific deity, a small number dedicate
+  themselves to a divine concept worthy of devotion—such as battle, death,
+  justice, or knowledge—free of a deific abstraction. (Work with your GM if you
+  prefer this path to selecting a specific deity.)
+alignment: >-
+  A cleric’s alignment must be within one step of her deity’s, along
+  either the law/chaos axis or the good/evil axis.
 hit_die: "d8"
 starting_wealth: "4d6 × 10 gp"
 class_skills:
@@ -341,7 +368,7 @@ table:
       - level: "2nd"
         spells: "4+1"
       - level: "3rd"
-       spells: "4+1"
+        spells: "4+1"
       - level: "4th"
         spells: "4+1"
       - level: "5th"

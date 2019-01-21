@@ -3,9 +3,27 @@
 #
 
 name: "Paladin"
-short_description: "The paladin is the knight in shining armor, a devoted follower of law and good."
-description: "Through a select, worthy few shines the power of the divine. Called paladins, these noble souls dedicate their swords and lives to the battle against evil. Knights, crusaders, and law-bringers, paladins seek not just to spread divine justice but to embody the teachings of the virtuous deities they serve. In pursuit of their lofty goals, they adhere to ironclad laws of morality and discipline. As reward for their righteousness, these holy champions are blessed with boons to aid them in their quests: powers to banish evil, heal the innocent, and inspire the faithful. Although their convictions might lead them into conflict with the very souls they would save, paladins weather endless challenges of faith and dark temptations, risking their lives to do right and fighting to bring about a brighter future."
-role: "Paladins serve as beacons for their allies within the chaos of battle. While deadly opponents of evil, they can also empower goodly souls to aid in their crusades. Their magic and martial skills also make them well suited to defending others and blessing the fallen with the strength to continue fighting."
+short_description: >-
+  The paladin is the knight in shining armor, a devoted follower of law and
+  good.
+description: >-
+  Through a select, worthy few shines the power of the divine. Called paladins,
+  these noble souls dedicate their swords and lives to the battle against evil.
+  Knights, crusaders, and law-bringers, paladins seek not just to spread divine
+  justice but to embody the teachings of the virtuous deities they serve. In
+  pursuit of their lofty goals, they adhere to ironclad laws of morality and
+  discipline. As reward for their righteousness, these holy champions are
+  blessed with boons to aid them in their quests: powers to banish evil, heal
+  the innocent, and inspire the faithful. Although their convictions might lead
+  them into conflict with the very souls they would save, paladins weather
+  endless challenges of faith and dark temptations, risking their lives to do
+  right and fighting to bring about a brighter future.
+role: >-
+  Paladins serve as beacons for their allies within the chaos of battle. While
+  deadly opponents of evil, they can also empower goodly souls to aid in their
+  crusades. Their magic and martial skills also make them well suited to
+  defending others and blessing the fallen with the strength to continue
+  fighting.
 alignment: "Lawful good"
 hit_die: "d10"
 starting_wealth: "5d6 × 10 gp"
@@ -107,7 +125,7 @@ table:
       - level: "3rd"
         spells: 0
       - level: "4th"
-       spells: 0
+        spells: 0
   - level: "6th"
     base_attack_bonus: "+6/+1"
     fort_save: "+5"
